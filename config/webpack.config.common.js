@@ -3,8 +3,8 @@ var merge = require('webpack-merge')
 var base = require('./webpack.config.base')
 var path = require('path')
 
-var outputFile = 'vue-chessboard'
-var globalName = 'VueChessboard'
+var outputFile = 'vue-echessboard'
+var globalName = 'VueEchessboard'
 
 module.exports = merge(base, {
   output: {

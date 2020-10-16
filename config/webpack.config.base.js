@@ -1,8 +1,8 @@
 var webpack = require('webpack')
 var ExtractTextPlugin = require('extract-text-webpack-plugin')
 
-var outputFile = 'vue-chessboard'
-var globalName = 'VueChessboard'
+var outputFile = 'vue-echessboard'
+var globalName = 'VueEchessboard'
 
 var config = require('../package.json')
 

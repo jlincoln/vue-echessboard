@@ -1,20 +1,20 @@
 {
-  "name": "vue-chessboard",
-  "description": "Chessboard vue component to load positions, create positions and see threats",
+  "name": "vue-echessboard",
+  "description": "Elephant Chessboard vue component to load positions, create positions and see threats",
   "version": "0.6.7",
   "author": {
-    "name": "vitogit",
-    "email": "vitogit@users.noreply.github.com"
+    "name": "jlincoln",
+    "email": "jlincoln@users.noreply.github.com"
   },
   "keywords": [
     "vue",
     "vuejs",
-    "chessboard",
-    "chess"
+    "echessboard",
+    "echess"
   ],
   "license": "GPL-3.0",
-  "main": "dist/vue-chessboard.common.js",
-  "unpkg": "dist/vue-chessboard.browser.js",
+  "main": "dist/vue-echessboard.common.js",
+  "unpkg": "dist/vue-echessboard.browser.js",
   "module": "index.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack --config config/webpack.config.dev.js --progress --watch",
@@ -26,12 +26,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vitogit/vue-chessboard.git"
+    "url": "git+https://github.com/jlincoln/vue-echessboard.git"
   },
   "bugs": {
-    "url": "https://github.com/vitogit/vue-chessboard/issues"
+    "url": "https://github.com/jlincoln/vue-echessboard/issues"
   },
-  "homepage": "https://github.com/vitogit/vue-chessboard#readme",
+  "homepage": "https://github.com/jlincoln/vue-echessboard#readme",
   "devDependencies": {
     "babel-core": "^6.0.0",
     "babel-eslint": "^7.1.1",
@@ -53,7 +53,7 @@
     "webpack-merge": "^1.1.2"
   },
   "dependencies": {
-    "chess.js": "^0.10.2",
-    "chessground": "^7.2.10"
+    "@jlincoln/echess.js": "^0.0.1",
+    "echessground": "^0.0.2"
   }
 }

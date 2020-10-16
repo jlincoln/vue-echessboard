@@ -1,14 +1,14 @@
-import chessboard from './components/chessboard/index.vue'
+import echessboard from './components/echessboard/index.vue'
 
 // Install the components
 export function install (Vue) {
-  Vue.component('chessboard', chessboard)
+  Vue.component('echessboard', echessboard)
   /* -- Add more components here -- */
 }
 
 // Expose the components
 export {
-  chessboard,
+  echessboard,
   /* -- Add more components here -- */
 }
 
