@@ -5,8 +5,8 @@
 </template>
 
 <script>
-import Chess from '@jlincoln/echess.js'
-import {Chessground} from 'echessground'
+import Echess from '@jlincoln/echess.js'
+import {Echessground} from 'echessground'
 import {uniques} from './Util.js'
 
 export default {
@@ -160,7 +160,7 @@ export default {
     },
     loadPosition () { // set a default value for the configuration object itself to allow call to loadPosition()
       this.game.load(this.fen)
-      this.board = Chessground(this.$refs.board, {
+      this.board = Echessground(this.$refs.board, {
         fen: this.game.fen(),
         turnColor: this.toColor(),
         movable: {
@@ -180,7 +180,7 @@ export default {
     this.loadPosition()
   },
   created () {
-    this.game = new Chess()
+    this.game = new Echess()
     this.board = null
     this.promotions = []
     this.promoteTo = 'q'
