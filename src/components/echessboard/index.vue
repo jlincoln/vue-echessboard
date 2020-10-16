@@ -5,12 +5,12 @@
 </template>
 
 <script>
-import Chess from 'chess.js'
-import {Chessground} from 'chessground'
+import Chess from '@jlincoln/echess.js'
+import {Chessground} from 'echessground'
 import {uniques} from './Util.js'
 
 export default {
-  name: 'chessboard',
+  name: 'echessboard',
   props: {
     fen: {
       type: String,
