@@ -180,7 +180,7 @@ export default {
     this.loadPosition()
   },
   created () {
-    this.game = new Echess()
+    this.game = new Echess(this.fen)
     this.board = null
     this.promotions = []
     this.promoteTo = 'q'
