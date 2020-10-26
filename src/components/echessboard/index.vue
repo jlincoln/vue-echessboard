@@ -1,6 +1,5 @@
 <template>
   <div class="blue merida">
-    <p>Hi There2</p>
     <div ref="board" class="cg-board-wrap"></div> </br>
   </div>
 </template>
