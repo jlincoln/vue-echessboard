@@ -1,5 +1,6 @@
 <template>
   <div class="blue merida">
+    <p>Hi There2</p>
     <div ref="board" class="cg-board-wrap"></div> </br>
   </div>
 </template>
@@ -56,7 +57,7 @@ export default {
         const ms = this.game.moves({square: s, verbose: true})
         if (ms.length) dests[s] = ms.map(m => m.to)
       })
-      return dests
+      return new Map(Object.entries(dests))
     },
     opponentMoves () {
       let originalPGN = this.game.pgn()
