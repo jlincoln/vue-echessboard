@@ -1,7 +1,7 @@
 {
   "name": "vue-echessboard",
   "description": "Elephant Chessboard vue component to load positions, create positions and see threats",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "author": {
     "name": "jlincoln",
     "email": "jlincoln@users.noreply.github.com"
