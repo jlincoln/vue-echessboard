@@ -1,7 +1,7 @@
 {
   "name": "vue-echessboard",
   "description": "Elephant Chessboard vue component to load positions, create positions and see threats",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "author": {
     "name": "jlincoln",
     "email": "jlincoln@users.noreply.github.com"
@@ -53,7 +53,7 @@
     "webpack-merge": "^1.1.2"
   },
   "dependencies": {
-    "@jlincoln/echess.js": "^0.0.6",
+    "@jlincoln/echess.js": "^0.0.7",
     "echessground": "^0.0.3"
   }
 }
