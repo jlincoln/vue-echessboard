@@ -141,6 +141,21 @@
   transform: translateY(39%);
 }
 
+cg-container {
+	position: absolute;
+	width: 800%;
+	height: 800%;
+	display: block;
+	bottom: 0;
+}
+
+cg-helper {
+	position: absolute;
+	width: 12.5%;
+	padding-bottom: 12.5%;
+	display: table;
+	bottom: 0;
+}
 
 /* THEME CUSTOMIZATION*/
 /*
